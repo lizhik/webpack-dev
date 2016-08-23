@@ -1,0 +1,19 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "learning something intereting \u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ds\u001b[C\u001b[C\u001b[D\u001b[Dting about webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizhik/webpack-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizhik/webpack-practice/issues"
+  },
+  "homepage": "https://github.com/lizhik/webpack-practice#readme"
+}
