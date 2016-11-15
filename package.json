@@ -1,19 +1,30 @@
 {
-  "name": "webpack",
+  "name": "webpack-dev",
   "version": "1.0.0",
-  "description": "learning something intereting \u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ds\u001b[C\u001b[C\u001b[D\u001b[Dting about webpack",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --port 8000 --devtool --content-base dist",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lizhik/webpack-practice.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lizhik/webpack-practice/issues"
-  },
-  "homepage": "https://github.com/lizhik/webpack-practice#readme"
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "install": "^0.8.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
