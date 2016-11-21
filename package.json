@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --port 8000 --devtool --content-base dist",
-    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+    "dev": "set WEBPACK_ENV=dev&& webpack-dev-server --port 8000 --devtool eval --progress --colors --hot --content-base dist",
+    "build": "set WEBPACK_ENV=build&&webpack"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +26,9 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }
